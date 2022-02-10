@@ -1,0 +1,31 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-photoalbums-master-112043-authRole",
+      "UnauthRoleArn": "arn:aws:iam::378210194107:role/amplify-photoalbums-master-112043-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::378210194107:role/amplify-photoalbums-master-112043-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-photoalbums-master-112043-deployment",
+      "UnauthRoleName": "amplify-photoalbums-master-112043-unauthRole",
+      "StackName": "amplify-photoalbums-master-112043",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:378210194107:stack/amplify-photoalbums-master-112043/0f3284e0-8a18-11ec-a54e-0250bde9c37a",
+      "AmplifyAppId": "dli6w54aw473g"
+    },
+    "categories": {
+      "auth": {
+        "photoalbumsd384bb20": {},
+        "true": {}
+      },
+      "function": {
+        "S3Trigger188069f9": {
+          "deploymentBucketName": "amplify-photoalbums-master-112043-deployment",
+          "s3Key": "amplify-builds/S3Trigger188069f9-43797268556248654d5a-build.zip"
+        },
+        "workshopphotoprocessor": {
+          "deploymentBucketName": "amplify-photoalbums-master-112043-deployment",
+          "s3Key": "amplify-builds/workshopphotoprocessor-30567047427931434b52-build.zip"
+        }
+      }
+    }
+  }
+}

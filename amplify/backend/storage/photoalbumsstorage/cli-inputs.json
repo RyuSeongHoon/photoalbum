@@ -1,0 +1,16 @@
+{
+  "resourceName": "photoalbumsstorage",
+  "policyUUID": "c162c603",
+  "bucketName": "photoalbums009cefc050874ef294f83f7b8c9df76e",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Trigger188069f9",
+  "groupAccess": {}
+}

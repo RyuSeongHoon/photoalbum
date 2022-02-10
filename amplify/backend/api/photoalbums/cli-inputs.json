@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "photoalbums",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/ryu/Desktop/Workspace/workshop/photo-albums/amplify/backend/api/photoalbums/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authphotoalbumsd384bb20"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-02-17T04:09:31.988Z",
+        "keyDescription": "하이"
+      }
+    ]
+  }
+}
